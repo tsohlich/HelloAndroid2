@@ -12,9 +12,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_centerVertical">true</item>
-        <item name="android:fontFamily">@font/atomic"</item>
+        <item name="android:fontFamily">@font/atomic</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textColor">"#0D47A1</item>
+        <item name="android:textColor">#0D47A1</item>
         <item name="android:textSize">50sp </item>
     </style>
 </resources>

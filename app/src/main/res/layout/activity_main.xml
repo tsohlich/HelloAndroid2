@@ -6,12 +6,15 @@
     tools:context="com.example.android.helloandroid.MainActivity">
 
     <ImageView
+        android:contentDescription="@string/descr"
+        android:onClick="mail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/hacker" />
 
     <TextView
+        android:onClick="mail"
         android:id="@+id/firstLine"
         android:text="@string/company_name"
         style="@style/company_name" />
